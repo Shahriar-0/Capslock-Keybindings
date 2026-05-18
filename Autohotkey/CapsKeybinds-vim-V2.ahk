@@ -28,6 +28,9 @@ return
 *f::Send("{blind}{PgUp}")
 *;::Send("{blind}{Escape}")
 
+F1::Send("{Media_Prev}")
+F2::Send("{Media_Next}")
+
 t::
 { ; V1toV2: Added bracket
   hwnd := WinExist("ahk_exe cmd.exe")
